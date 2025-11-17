@@ -1,7 +1,7 @@
 # bank_de_dados_senac
 Este projeto consiste na criação de um banco de dados para uma loja de roupas, com o objetivo de organizar informações sobre produtos, clientes, pedidos, fornecedores, categorias e pagamentos.
 O banco foi modelado utilizando um diagrama entidade-relacionamento (DER) e implementado com comandos SQL (DDL e DML).
-
+***
 - Modelo do Banco de Dados
 
 O banco de dados realizado representa: clientes da loja, produtos disponíveis, categorias de produtos, fornecedores, pedidos realizados e métodos de pagamento.
@@ -101,4 +101,4 @@ WHERE id_cliente = 1;
 
 - Aprendizagem do projeto
 
-Com o presente projetos podemos aprender a modelar um banco de dados completo, diferença entre DDL e DML, como criar e relacionar tabelas, como documentar projetos no GitHub e como organizar arquivos SQL em repositórios.
+Com o presente projeto podemos aprender a modelar um banco de dados completo, diferenciar DDL e DML, aprender a como criar e relacionar tabelas, como documentar projetos no GitHub e como organizar arquivos SQL em repositórios.
