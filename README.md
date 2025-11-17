@@ -26,14 +26,18 @@ Execute o script completo.
 DDL (Data Definition Language) define a estrutura do banco de dados.
 
 - Comandos DDL:
-Comando	Função
+  
+Comando	Função:
+
 CREATE	Cria tabelas
 ALTER	Altera tabelas
 DROP	Exclui tabelas
 TRUNCATE	Limpa tabelas
 
-- Exemplos de DDL do projeto
-Criando a tabela clientes
+- Exemplos de DDL do projeto:
+  
+Criando a tabela clientes:
+
 CREATE TABLE clientes (
     id_cliente INT PRIMARY KEY,
     nome VARCHAR(45),
@@ -44,7 +48,8 @@ CREATE TABLE clientes (
     endereco VARCHAR(45)
 );
 
-Criando a tabela produtos
+Criando a tabela produtos:
+
 CREATE TABLE produtos (
     id_produtos INT PRIMARY KEY,
     nome VARCHAR(45),
@@ -63,27 +68,34 @@ CREATE TABLE produtos (
 DML (Data Manipulation Language) manipula dados de tabelas.
 
 - Comandos DML:
-Comando	Função
+  
+Comando	Função:
+
 INSERT	Adiciona dados
 UPDATE	Atualiza dados
 DELETE	Exclui dados
 SELECT	Consulta dados
 
 - Exemplos de DML do projeto
-Inserindo um cliente
+  
+Inserindo um cliente:
+
 INSERT INTO clientes (id_cliente, nome, cpf, email, telefone, data_nascimento, endereco)
 VALUES (1, 'Maria Silva', 12345678900, 'maria@gmail.com', 11999999999, '1990-05-10', 'Rua A, 100');
 
-Inserindo um produto
+Inserindo um produto:
+
 INSERT INTO produtos (id_produtos, nome, tamanho, cor, preco, descricao, categoria_id_categoria, fornecedor_id_fornecedor)
 VALUES (1, 'Camiseta Básica', 'M', 'Preta', 49.90, 'Camiseta algodão', 1, 1);
 
-Atualizando um produto
+Atualizando um produto:
+
 UPDATE produtos
 SET preco = 59.90
 WHERE id_produtos = 1;
 
-Deletando um cliente
+Deletando um cliente:
+
 DELETE FROM clientes
 WHERE id_cliente = 1;
 
