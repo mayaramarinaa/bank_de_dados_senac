@@ -4,62 +4,22 @@ O banco foi modelado utilizando um diagrama entidade-relacionamento (DER) e impl
 
 - Modelo do Banco de Dados
 
-O banco de dados representa:
-
-Clientes da loja
-
-Produtos disponíveis
-
-Categorias de produtos
-
-Fornecedores
-
-Pedidos realizados
-
-Métodos de pagamento
+O banco de dados realizado representa: clientes da loja, produtos disponíveis, categorias de produtos, fornecedores, pedidos realizados e métodos de pagamento.
 
 - Diagrama do Projeto:
 <img width="814" height="595" alt="Diagrama loja de roupas" src="https://github.com/user-attachments/assets/28dfb146-d203-4bc0-8b86-b440ab5afc9c" />
 
-
 - Objetivo do Projeto
 
-Este projeto foi criado com os seguintes objetivos:
-
-Aprender a modelar um banco de dados completo.
-
-Criar tabelas utilizando DDL.
-
-Inserir e manipular dados utilizando DML.
-
-Compreender relacionamentos entre tabelas (1:N, N:N).
-
-Organizar um repositório profissional para projetos SQL.
-
-Durante o desenvolvimento, pratiquei conceitos como:
-
-Chaves primárias
-
-Chaves estrangeiras
-
-Normalização básica
-
-Execução de scripts completos no MySQL
+Este projeto foi criado com os objetivos de aprender a modelar um banco de dados completo, criar tabelas utilizando DDL, inserir e manipular dados utilizando DML, compreender relacionamentos entre tabelas (1:N, N:N), organizar um repositório profissional para projetos SQL. Durante seu desenvolvimento, pratiquei conceitos de chaves primárias e estrangeiras, normalização básica e execução de scripts completos no MySQL.
 
 - Como Executar o Script SQL
 
-Baixe o arquivo .sql disponível em sql_scripts/.
-
-Abra seu software SQL (MySQL Workbench, DBeaver, etc.).
-
-Crie o banco de dados:
+Baixe o arquivo .sql disponível em sql_scripts/ em seguida abra seu software SQL (MySQL Workbench, DBeaver, etc.), crie o banco de dados:
 
 CREATE DATABASE loja_roupas;
 USE loja_roupas;
-
-
 Execute o script completo.
-
 
 - O que é DDL?
 
@@ -71,6 +31,7 @@ CREATE	Cria tabelas
 ALTER	Altera tabelas
 DROP	Exclui tabelas
 TRUNCATE	Limpa tabelas
+
 - Exemplos de DDL do projeto
 Criando a tabela clientes
 CREATE TABLE clientes (
@@ -107,6 +68,7 @@ INSERT	Adiciona dados
 UPDATE	Atualiza dados
 DELETE	Exclui dados
 SELECT	Consulta dados
+
 - Exemplos de DML do projeto
 Inserindo um cliente
 INSERT INTO clientes (id_cliente, nome, cpf, email, telefone, data_nascimento, endereco)
@@ -127,12 +89,4 @@ WHERE id_cliente = 1;
 
 - Aprendizagem do projeto
 
-Modelar um banco de dados completo.
-
-Diferença entre DDL e DML.
-
-Como criar e relacionar tabelas.
-
-Como documentar projetos no GitHub.
-
-Como organizar arquivos SQL em repositórios.
+Com o presente projetos podemos aprender a modelar um banco de dados completo, diferença entre DDL e DML, como criar e relacionar tabelas, como documentar projetos no GitHub e como organizar arquivos SQL em repositórios.
